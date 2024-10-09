@@ -1,0 +1,58 @@
+/* login.css */
+.img-fluid {
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+}
+
+.p1 {
+  font-size: 3rem;
+  margin-top: 20px;
+  color: aliceblue;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.p2 {
+  font-size: 2.5rem;
+  margin-top: 20px;
+  color: #949EFF;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.form-floating {
+  margin-bottom: 15px;
+}
+
+.form-control {
+  border-radius: 10px;
+}
+
+.form-check-input:checked {
+  background-color: blue;
+  border-color: blue;
+}
+
+.form-check-label {
+  font-family: "Poppins", sans-serif;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 20px;
+  }
+
+  .p1 {
+    font-size: 2rem;
+  }
+
+  .p2 {
+    font-size: 1.5rem;
+  }
+}
+.btn btn-primary:hover{
+  background-color: #182064;
+}

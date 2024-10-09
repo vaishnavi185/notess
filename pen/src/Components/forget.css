@@ -1,0 +1,21 @@
+.position-absolute {
+    position: absolute;
+  }
+  
+  .form-container {
+    margin-top: 20px; /* Adjust this value as needed */
+    text-align: center;
+  }
+  
+  .img1 {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .container {
+    position: relative;
+    height: 100vh;
+  }
+  .h33{
+    font-family: poppins;
+  }

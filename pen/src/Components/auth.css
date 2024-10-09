@@ -1,0 +1,112 @@
+.im1 {
+    width: 100%; /* make the image width 100% of the container */
+    height: 100%; /* make the image height 100% of the container */
+    object-fit: cover; /* add this line to make the image cover the container */
+  }
+
+.head{
+    text-align: center;
+    color: aliceblue;
+}
+
+.container2{
+    column-gap: 10px;
+    background-color: rgb(28, 27, 27);
+    overflow-x: hidden;
+}
+
+span{
+    font-size: 70px;
+
+}
+
+p{
+    margin-right: 100px;
+    color: aliceblue;
+    font-size: 20px;
+}
+.im1{
+    width: 400px;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-top: 8px;
+    
+    
+}
+
+.head{
+    text-align: center;
+    color: aliceblue;
+}
+
+.container2{
+    column-gap: 10px;
+    background-color: rgb(28, 27, 27);
+    overflow-x: hidden;
+}
+
+span{
+    font-size: 70px;
+
+}
+
+p{
+    margin-right: 100px;
+    color: aliceblue;
+    font-size: 20px;
+}
+.contain{
+    width: 420px;
+    height: 420px;
+    border: 1px , solid,rgb(79, 78, 78);
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-top: 20px;
+    box-shadow: 10px 10px 10px -10px rgba(238, 233, 233, 0.5);
+}
+.contain1{
+    width: 420px;
+    height: 500px;
+    border: 1px , solid,rgb(79, 78, 78);
+    border-radius: 20px;
+    margin-left: 100px;
+   
+    box-shadow: 10px 10px 10px -10px rgba(238, 233, 233, 0.5);
+}
+
+.icon-row {
+    display: flex;
+    justify-content: left;
+    margin-top: 30px;
+
+    
+  }
+  
+  .icon-row a {
+    margin-right: 20px;
+    size: 100px;
+  }
+  
+  .icon-row a:last-child {
+    margin-right: 0;
+  }
+  
+  .icon-row .fa-facebook {
+    color: #1877e0;
+  }
+  
+  .icon-row .fa-instagram {
+    color: #E1306C;
+  }
+  
+  .icon-row .fa-linkedin {
+    color: #0077b5;
+  }
+
+  .icon-row .fa-facebook,
+.icon-row .fa-instagram,
+.icon-row .fa-linkedin {
+  font-size: 50px;
+}

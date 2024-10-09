@@ -1,0 +1,66 @@
+/* Base Styles */
+.btn2 {
+    background-color: rgb(234, 115, 115);
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    width: 90px;
+    color: azure;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.btn2:hover {
+    background-color: rgb(233, 71, 71);
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between; /* Spread out buttons */
+    height: 100px;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: 600;
+    padding: 0 10px; /* Add some padding for smaller screens */
+}
+
+.but {
+    display: flex;
+    column-gap: 40px;
+}
+
+/* Responsive styles for larger screens */
+@media (min-width: 768px) {
+    .buttons {
+        column-gap: 100px; /* Adjust the gap for larger screens */
+    }
+}
+
+@media (min-width: 1024px) {
+    .buttons {
+        column-gap: 200px; /* Wider screens */
+    }
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 767px) {
+    .btn2 {
+        width: auto; /* Make button width flexible */
+        padding: 8px 12px; /* Adjust padding */
+    }
+
+    .buttons {
+        flex-direction: column; /* Stack buttons vertically */
+        height: auto;
+        row-gap: 20px; /* Add some space between buttons */
+        align-items: flex-start; /* Align buttons to the start */
+    }
+    
+    .but {
+        flex-direction: column;
+        row-gap: 20px; /* Space between buttons when stacked */
+    }
+}

@@ -1,0 +1,144 @@
+.navbar-container {
+    background-color: #f6f6f8;
+    padding: 10px;
+    border-radius: 40px;
+    width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 4 auto;
+  }
+
+  .content {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+  
+  }
+
+
+  .items{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: rgb(86, 82, 82);
+  }
+
+
+
+.items:hover{
+    color: #a90fdc;
+}
+.header{
+    font-size: 60px;
+text-decoration: solid;
+    
+}
+
+.header-container {
+    position: absolute;
+    top: calc(100px + 20px); /* adjust this value to match the height of the navbar */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #fff;
+    margin-top: 20px; /* add some extra space between the navbar and the header */
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-container {
+      width: 600px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .navbar-container {
+      width: 100%;
+      padding: 10px;
+    }
+    .content {
+      flex-direction: column;
+      gap: 20px;
+    }
+    .items {
+      font-size: 24px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .navbar-container {
+      padding: 5px;
+    }
+    .content {
+      gap: 10px;
+    }
+    .items {
+      font-size: 18px;
+    }
+  }
+.con2 {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  opacity: 80%;
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .con2 {
+    height: 80vh;
+  }
+}
+
+@media (max-width: 576px) {
+  .con2 {
+    height: 70vh;
+  }
+  .header-container {
+    top: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .con2 {
+    height: 60vh;
+  }
+  .header-container {
+    top: 150px;
+  }
+}
+
+.header-container {
+  position: absolute;
+  top: 260px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .header-container {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 576px) {
+  .header-container {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-container {
+    font-size: 18px;
+  }
+}
+
+.para{
+    font-size: 20px;
+    font-weight: 500;
+    color: #ebe4ea;
+}
+

@@ -1,0 +1,132 @@
+/* General styles for .col-8 */
+.col-8 {
+  background-color: #FFFFFF; /* White background */
+  width: 80%; /* Adjusted width to fit content */
+  margin: 40px auto; /* Centered horizontally */
+  padding: 20px; /* Added padding for content */
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Added box shadow for depth */
+}
+
+/* Ensure .con uses full width and background color */
+.con {
+    overflow-x: hidden;
+    background-color: #949EFF;
+    width: 100%;
+    height: 100vh;
+
+}
+
+
+/* Ensure form controls are responsive */
+.form-control.me-2 {
+    border-radius: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+}
+
+/* Ensure buttons are responsive */
+.btn {
+    background-color: #949EFF;
+    border-radius: 20px;
+    color: aliceblue;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+
+/* Ensure button hover effect */
+.btn:hover {
+    border: 2px solid #949EFF;
+}
+
+/* Added CSS to ensure no alignment change and positioning */
+.collapse.show {
+    display: block;
+    position: relative;
+    right: 0;
+    margin-right: 0;
+}
+
+.collapse:not(.show) {
+    display: block;
+    visibility: hidden;
+    height: 0;
+    overflow: hidden;
+    position: relative;
+    right: 0;
+    margin-right: 0;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 1490px) {
+    .col-8 {
+        width: calc(100% - 40px); /* Adjust width to account for margins */
+        margin-left: 20px; /* Consistent margin on left */
+        margin-right: 20px; /* Consistent margin on right */
+    }
+}
+
+@media (max-width: 768px) {
+    .col-8 {
+        width: calc(100% - 40px); /* Adjust width to account for margins */
+        margin-left: 20px; /* Consistent margin on left */
+        margin-right: 20px; /* Consistent margin on right */
+    }
+}
+/* profile.css */
+
+.profile-container {
+    padding: 10px;
+  }
+  
+  .profile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .profile-icon {
+    width: 50px;
+    height: 50px;
+  }
+  
+  /* Adjustments for larger screens */
+  @media (min-width: 768px) {
+    .profile-container {
+      padding: 20px;
+    }
+    .profile-icon {
+      width: 50px;
+      height: 50px;
+    }
+  }
+  
+  /* Adjustments for smaller screens */
+  @media (max-width: 767px) {
+    .profile-header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .btn-profile-icon {
+      margin-top: 10px;
+    }
+    .profile-icon {
+      width: 40px;
+      height: 40px;
+    }
+  }
+  .it {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    list-style: none;
+    color: rgb(86, 82, 82);
+    margin-top: 0px;
+  }
+  
+  .compo {
+    display: flex;
+    column-gap: 30px;
+    justify-content: flex-end; /* Aligns items to the right */
+    align-items: center; /* Vertically center the items */
+  }
+  
